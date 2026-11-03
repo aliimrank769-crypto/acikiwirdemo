@@ -1,0 +1,798 @@
+{
+  "version": 4,
+  "branding": {
+    "appName": "ACIKIWIR",
+    "tagline": "Jelajah Wisata Interaktif & Misi Foto",
+    "primaryColor": "#0052CC",
+    "accentColor": "#FFA000",
+    "buttonColor": "#003580",
+    "logoType": "image",
+    "logoIcon": "camera",
+    "logoImageUrl": "/logo-acikiwir.jpg",
+    "categoryIcons": {
+      "alam": "trees",
+      "sejarah": "landmark",
+      "taman": "sun",
+      "bahari": "anchor",
+      "kuliner": "store"
+    },
+    "defaultCenter": {
+      "lat": 4.4965,
+      "lng": 97.9865,
+      "zoom": 13
+    },
+    "adminWhatsApp": "081168009900"
+  },
+  "locations": [
+    {
+      "id": "loc-mangrove-kuala",
+      "qrCode": "JL-QR-MANGROVE-001",
+      "name": "Hutan Mangrove Kuala Langsa",
+      "category": "alam",
+      "pinIcon": "trees",
+      "lat": 4.521657286351418,
+      "lng": 98.01615887910705,
+      "radiusMeters": 120,
+      "shortDescription": "Kawasan ekowisata hutan bakau seluas ±8.000 hektar dengan Menara Pandang ikonik 45 meter dan jembatan lengkung kayu di atas kanopi mangrove.",
+      "historyDescription": "Hutan Mangrove Kuala Langsa merupakan salah satu ekosistem hutan bakau terlengkap di Asia Tenggara dengan lebih dari 38 spesies mangrove sejati. Menara Pandang setinggi 45 meter menyuguhkan panorama 360 derajat Selat Malaka dan kanopi hijau yang memukau.",
+      "operatingHours": "Setiap Hari • 08.00 – 18.00 WIB",
+      "priceRange": "Tiket Masuk Rp10.000 – Rp20.000 | Kuliner UMKM Rp15.000 – Rp45.000",
+      "contactName": "UPTD Pengelola Ekowisata Mangrove",
+      "contactPhone": "081260004521",
+      "missions": [
+        {
+          "id": "m-mangrove-1",
+          "title": "Foto Pemandangan Ikonik",
+          "description": "Abadikan sudut terbaik Jembatan Lengkung Kayu atau Menara Pandang 45m Hutan Mangrove Kuala Langsa.",
+          "type": "photo",
+          "xpReward": 60
+        },
+        {
+          "id": "m-mangrove-2",
+          "title": "Foto Kuliner / Produk UMKM",
+          "description": "Potret sajian Kopi Sanger dingin, Mie Kepiting Bakau, atau kerajinan sirup buah mangrove di gerai UMKM sekitar.",
+          "type": "photo",
+          "xpReward": 60
+        },
+        {
+          "id": "m-mangrove-3",
+          "title": "Beri Rating & Kesan Singkat",
+          "description": "Bagikan rating bintang dan pengalaman seru kamu menjelajahi udara segar hutan bakau Kuala Langsa.",
+          "type": "review",
+          "xpReward": 40
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph-1793687147170-msa9",
+          "locationId": "loc-mangrove-kuala",
+          "missionId": "m-mangrove-2",
+          "missionLabel": "Foto Kuliner / Produk UMKM",
+          "userEmail": "cut.nadia@gmail.com",
+          "userName": "Cut Nadia Putri",
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20420%22%20width%3D%22640%22%20height%3D%22420%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230052CC%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22url(%23bg)%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22510%22%20cy%3D%22110%22%20r%3D%2246%22%20fill%3D%22%23FFA000%22%20opacity%3D%220.85%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q160%20250%20320%20290%20T640%20280%20L640%20420%20L0%20420%20Z%22%20fill%3D%22%23064e3b%22%20opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M110%20290%20Q320%20195%20530%20290%22%20fill%3D%22none%22%20stroke%3D%22%23fde68a%22%20stroke-width%3D%2210%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M130%20290%20L130%20350%20M220%20252%20L220%20350%20M320%20242%20L320%20350%20M420%20252%20L420%20350%20M510%20290%20L510%20350%22%20stroke%3D%22%23fcd34d%22%20stroke-width%3D%225%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2295%22%20cy%3D%22215%22%20r%3D%2248%22%20fill%3D%22%2310b981%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22545%22%20cy%3D%22220%22%20r%3D%2254%22%20fill%3D%22%23059669%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%3Crect%20x%3D%2224%22%20y%3D%2224%22%20width%3D%22180%22%20height%3D%2232%22%20rx%3D%2216%22%20fill%3D%22rgba(15%2C23%2C42%2C0.55)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2242%22%20y%3D%2245%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%3EMISI%20KOMUNITAS%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22328%22%20width%3D%22640%22%20height%3D%2292%22%20fill%3D%22rgba(15%2C23%2C42%2C0.68)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22364%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%3EFoto%20Kuliner%20%2F%20Produk%20UMKM%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22392%22%20fill%3D%22%23e2e8f0%22%20font-family%3D%22sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22500%22%3EHutan%20Mangrove%20Kuala%20Langsa%20%E2%80%A2%20Oleh%20Cut%20Nadia%20Putri%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "Seru banget menyelesaikan \"Foto Kuliner / Produk UMKM\" langsung di Hutan Mangrove Kuala Langsa!",
+          "createdAt": "2026-11-03T06:25:47.170Z"
+        },
+        {
+          "id": "ph-1793687141739-ity3",
+          "locationId": "loc-mangrove-kuala",
+          "missionId": "m-mangrove-1",
+          "missionLabel": "Foto Pemandangan Ikonik",
+          "userEmail": "cut.nadia@gmail.com",
+          "userName": "Cut Nadia Putri",
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20420%22%20width%3D%22640%22%20height%3D%22420%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230052CC%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22url(%23bg)%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22510%22%20cy%3D%22110%22%20r%3D%2246%22%20fill%3D%22%23FFA000%22%20opacity%3D%220.85%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q160%20250%20320%20290%20T640%20280%20L640%20420%20L0%20420%20Z%22%20fill%3D%22%23064e3b%22%20opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M110%20290%20Q320%20195%20530%20290%22%20fill%3D%22none%22%20stroke%3D%22%23fde68a%22%20stroke-width%3D%2210%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M130%20290%20L130%20350%20M220%20252%20L220%20350%20M320%20242%20L320%20350%20M420%20252%20L420%20350%20M510%20290%20L510%20350%22%20stroke%3D%22%23fcd34d%22%20stroke-width%3D%225%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2295%22%20cy%3D%22215%22%20r%3D%2248%22%20fill%3D%22%2310b981%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22545%22%20cy%3D%22220%22%20r%3D%2254%22%20fill%3D%22%23059669%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%3Crect%20x%3D%2224%22%20y%3D%2224%22%20width%3D%22180%22%20height%3D%2232%22%20rx%3D%2216%22%20fill%3D%22rgba(15%2C23%2C42%2C0.55)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2242%22%20y%3D%2245%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%3EMISI%20KOMUNITAS%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22328%22%20width%3D%22640%22%20height%3D%2292%22%20fill%3D%22rgba(15%2C23%2C42%2C0.68)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22364%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%3EFoto%20Pemandangan%20Ikonik%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22392%22%20fill%3D%22%23e2e8f0%22%20font-family%3D%22sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22500%22%3EHutan%20Mangrove%20Kuala%20Langsa%20%E2%80%A2%20Oleh%20Cut%20Nadia%20Putri%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "Seru banget menyelesaikan \"Foto Pemandangan Ikonik\" langsung di Hutan Mangrove Kuala Langsa!",
+          "createdAt": "2026-11-03T06:25:41.739Z"
+        },
+        {
+          "id": "ph-seed-1",
+          "locationId": "loc-mangrove-kuala",
+          "missionId": "m-mangrove-1",
+          "missionLabel": "Foto Pemandangan Ikonik",
+          "userEmail": "cut.nadia@gmail.com",
+          "userName": "Cut Nadia Putri",
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20420%22%20width%3D%22640%22%20height%3D%22420%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23065f46%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2310b981%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22url(%23bg)%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22510%22%20cy%3D%22110%22%20r%3D%2246%22%20fill%3D%22%23fde047%22%20opacity%3D%220.85%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q160%20250%20320%20290%20T640%20280%20L640%20420%20L0%20420%20Z%22%20fill%3D%22%23064e3b%22%20opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M110%20290%20Q320%20195%20530%20290%22%20fill%3D%22none%22%20stroke%3D%22%23fde68a%22%20stroke-width%3D%2210%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M130%20290%20L130%20350%20M220%20252%20L220%20350%20M320%20242%20L320%20350%20M420%20252%20L420%20350%20M510%20290%20L510%20350%22%20stroke%3D%22%23fcd34d%22%20stroke-width%3D%225%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2295%22%20cy%3D%22215%22%20r%3D%2248%22%20fill%3D%22%2310b981%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22545%22%20cy%3D%22220%22%20r%3D%2254%22%20fill%3D%22%23059669%22%20opacity%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%3Crect%20x%3D%2224%22%20y%3D%2224%22%20width%3D%22180%22%20height%3D%2232%22%20rx%3D%2216%22%20fill%3D%22rgba(15%2C23%2C42%2C0.55)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2242%22%20y%3D%2245%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%3EMISI%20KOMUNITAS%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22328%22%20width%3D%22640%22%20height%3D%2292%22%20fill%3D%22rgba(15%2C23%2C42%2C0.68)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22364%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%3EJembatan%20Lengkung%20Mangrove%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22392%22%20fill%3D%22%23e2e8f0%22%20font-family%3D%22sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22500%22%3EMenara%20Pandang%20%20Kanopi%20Hijau%20Kuala%20Langsa%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "Angin sepoi-sepoi dari atas jembatan lengkung mangrove luar biasa asri!",
+          "createdAt": "2026-10-28T09:30:00.000Z"
+        },
+        {
+          "id": "ph-seed-2",
+          "locationId": "loc-mangrove-kuala",
+          "missionId": "m-mangrove-2",
+          "missionLabel": "Foto Kuliner / Produk UMKM",
+          "userEmail": "teuku.reza@gmail.com",
+          "userName": "Teuku Reza Fahlevi",
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20420%22%20width%3D%22640%22%20height%3D%22420%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2378350f%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23d97706%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22url(%23bg)%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22320%22%20cy%3D%22225%22%20r%3D%22105%22%20fill%3D%22%23fff7ed%22%20opacity%3D%220.94%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22320%22%20cy%3D%22225%22%20r%3D%2282%22%20fill%3D%22%23fef3c7%22%20opacity%3D%220.88%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22295%22%20cy%3D%22210%22%20r%3D%2224%22%20fill%3D%22%237c2d12%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22348%22%20cy%3D%22222%22%20r%3D%2228%22%20fill%3D%22%239a3412%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22315%22%20cy%3D%22252%22%20r%3D%2220%22%20fill%3D%22%2315803d%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%3Crect%20x%3D%2224%22%20y%3D%2224%22%20width%3D%22180%22%20height%3D%2232%22%20rx%3D%2216%22%20fill%3D%22rgba(15%2C23%2C42%2C0.55)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2242%22%20y%3D%2245%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%3EMISI%20KOMUNITAS%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22328%22%20width%3D%22640%22%20height%3D%2292%22%20fill%3D%22rgba(15%2C23%2C42%2C0.68)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22364%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%3EKopi%20Sanger%20%20Sirup%20Mangrove%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22392%22%20fill%3D%22%23e2e8f0%22%20font-family%3D%22sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22500%22%3EUMKM%20Lokal%20Ekowisata%20Kuala%20Langsa%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "Mencicipi olahan sirup buah lindur mangrove karya ibu-ibu UMKM pesisir.",
+          "createdAt": "2026-10-30T15:15:00.000Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-1793687152988-ag5z",
+          "locationId": "loc-mangrove-kuala",
+          "missionId": "m-mangrove-3",
+          "userEmail": "cut.nadia@gmail.com",
+          "userName": "Cut Nadia Putri",
+          "rating": 5,
+          "comment": "Tempat wisata yang sangat berkesan dan direkomendasikan!",
+          "createdAt": "2026-11-03T06:25:52.988Z"
+        },
+        {
+          "id": "rev-seed-1",
+          "locationId": "loc-mangrove-kuala",
+          "missionId": "m-mangrove-3",
+          "userEmail": "cut.nadia@gmail.com",
+          "userName": "Cut Nadia Putri",
+          "rating": 5,
+          "comment": "Destinasi wajib di Kota Langsa! Jembatan kayunya bersih, spot fotonya estetik, dan menara pandangnya megah sekali.",
+          "createdAt": "2026-10-28T09:35:00.000Z"
+        },
+        {
+          "id": "rev-seed-2",
+          "locationId": "loc-mangrove-kuala",
+          "missionId": "m-mangrove-3",
+          "userEmail": "teuku.reza@gmail.com",
+          "userName": "Teuku Reza Fahlevi",
+          "rating": 5,
+          "comment": "Sangat edukatif untuk keluarga. Banyak monyet ekor panjang jinak dan papan informasi spesies bakau yang jelas.",
+          "createdAt": "2026-10-30T15:20:00.000Z"
+        }
+      ],
+      "ownerEmail": "umkm.mangrove@gmail.com",
+      "merchantName": "Koperasi UMKM Ekowisata Mangrove",
+      "voucherConfig": {
+        "enabled": true,
+        "title": "Voucher Diskon 20% Kopi Sanger & Olahan Sirup Mangrove",
+        "discountValue": "Diskon 20%",
+        "description": "Reward otomatis setelah menyelesaikan misi di Hutan Mangrove Kuala Langsa.",
+        "terms": "Tunjukkan Kode / QR Voucher ini ke kasir Koperasi UMKM Mangrove untuk potongan langsung."
+      },
+      "promos": [
+        {
+          "id": "pr-mangrove-1",
+          "title": "Paket Kopi Sanger Dingin + Pisang Goreng Srikaya",
+          "description": "Kopi sanger racikan khas Aceh disajikan dingin bersama pisang goreng srikaya hangat di tepi hutan bakau.",
+          "priceText": "Rp22.000 (Harga Normal Rp28.000)",
+          "promoBadge": "Diskon 20% Voucher",
+          "isActive": true,
+          "createdAt": "2026-10-28T08:00:00.000Z"
+        },
+        {
+          "id": "pr-mangrove-2",
+          "title": "Sirup & Dodol Buah Mangrove Asli (Oleh-Oleh Khas)",
+          "description": "Minuman sehat kaya antioksidan dari buah bakau lindur & pedada hasil olahan kelompok ibu-ibu Kuala Langsa.",
+          "priceText": "Rp30.000 / Botol Kemasan",
+          "promoBadge": "Produk Unggulan UMKM",
+          "isActive": true,
+          "createdAt": "2026-10-29T08:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "loc-balee-juang",
+      "qrCode": "JL-QR-BALEEJUANG-002",
+      "name": "Gedung Balai Juang / Museum Kota Langsa",
+      "category": "sejarah",
+      "pinIcon": "landmark",
+      "lat": 4.471335206968261,
+      "lng": 97.96774289444802,
+      "radiusMeters": 100,
+      "shortDescription": "Bangunan cagar budaya berarsitektur kolonial Eropa tahun 1920 di jantung Kota Langsa yang kini menjadi Museum Daerah dan ikon sejarah perjuangan.",
+      "historyDescription": "Didirikan pada masa Hindia Belanda sebagai gedung Het Kantoorgebouw der Atjehsche Handel-Maatschappij, Gedung Balee Juang menjadi pusat pergerakan kemerdekaan rakyat Langsa pada 1945. Kini menyimpan artefak kesultanan, naskah kuno, dan diorama sejarah Aceh Timur & Langsa.",
+      "operatingHours": "Selasa – Minggu • 08.30 – 16.30 WIB (Malam: Taman Lampu Hias)",
+      "priceRange": "Tiket Museum Gratis / Donasi Sukarela | Jajanan Malam Rp10.000 – Rp25.000",
+      "contactName": "Pengelola Museum & Cagar Budaya Langsa",
+      "contactPhone": "081362118890",
+      "missions": [
+        {
+          "id": "m-balee-1",
+          "title": "Foto Arsitektur Gedung Sejarah",
+          "description": "Potret fasad lengkung putih klasik Gedung Balee Juang dari pelataran depan museum.",
+          "type": "photo",
+          "xpReward": 60
+        },
+        {
+          "id": "m-balee-2",
+          "title": "Foto Koleksi / UMKM Sekitar Alun-Alun",
+          "description": "Abadikan koleksi favorit di dalam museum atau jajanan kopi gerobak UMKM di sekitar Lapangan Merdeka Langsa.",
+          "type": "photo",
+          "xpReward": 50
+        },
+        {
+          "id": "m-balee-3",
+          "title": "Beri Rating & Kesan Singkat",
+          "description": "Tuliskan kesan kamu setelah mengenal jejak sejarah Kota Langsa di Balee Juang.",
+          "type": "review",
+          "xpReward": 40
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph-seed-3",
+          "locationId": "loc-balee-juang",
+          "missionId": "m-balee-1",
+          "missionLabel": "Foto Arsitektur Gedung Sejarah",
+          "userEmail": "cut.nadia@gmail.com",
+          "userName": "Cut Nadia Putri",
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20420%22%20width%3D%22640%22%20height%3D%22420%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2392400e%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23f59e0b%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22url(%23bg)%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22140%22%20y%3D%22155%22%20width%3D%22360%22%20height%3D%22175%22%20rx%3D%228%22%20fill%3D%22%23fffbeb%22%20opacity%3D%220.92%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpolygon%20points%3D%22120%2C160%20320%2C82%20520%2C160%22%20fill%3D%22%23fde68a%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22180%22%20y%3D%22205%22%20width%3D%2244%22%20height%3D%22125%22%20rx%3D%2222%22%20fill%3D%22%2392400e%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22255%22%20y%3D%22205%22%20width%3D%2244%22%20height%3D%22125%22%20rx%3D%2222%22%20fill%3D%22%2392400e%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22340%22%20y%3D%22205%22%20width%3D%2244%22%20height%3D%22125%22%20rx%3D%2222%22%20fill%3D%22%2392400e%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22415%22%20y%3D%22205%22%20width%3D%2244%22%20height%3D%22125%22%20rx%3D%2222%22%20fill%3D%22%2392400e%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22330%22%20width%3D%22640%22%20height%3D%2290%22%20fill%3D%22%23451a03%22%20opacity%3D%220.45%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%3Crect%20x%3D%2224%22%20y%3D%2224%22%20width%3D%22180%22%20height%3D%2232%22%20rx%3D%2216%22%20fill%3D%22rgba(15%2C23%2C42%2C0.55)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2242%22%20y%3D%2245%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%3EMISI%20KOMUNITAS%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22328%22%20width%3D%22640%22%20height%3D%2292%22%20fill%3D%22rgba(15%2C23%2C42%2C0.68)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22364%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%3EFasad%20Klasik%20Balee%20Juang%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22392%22%20fill%3D%22%23e2e8f0%22%20font-family%3D%22sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22500%22%3ECagar%20Budaya%20%20Museum%20Kota%20Langsa%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "Arsitektur kolonial putihnya megah dan terawat rapi di pusat kota.",
+          "createdAt": "2026-10-29T11:00:00.000Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-seed-3",
+          "locationId": "loc-balee-juang",
+          "missionId": "m-balee-3",
+          "userEmail": "cut.nadia@gmail.com",
+          "userName": "Cut Nadia Putri",
+          "rating": 5,
+          "comment": "Pemandu museumnya ramah sekali menjelaskan sejarah perkebunan & perjuangan rakyat Langsa. Sore sampai malam lampunya cantik!",
+          "createdAt": "2026-10-29T11:10:00.000Z"
+        }
+      ],
+      "merchantName": "Sentra Kopi & Kriya Balee Juang",
+      "voucherConfig": {
+        "enabled": true,
+        "title": "Voucher Potongan Rp10.000 Souvenir & Kopi Heritage",
+        "discountValue": "Potongan Rp10.000",
+        "description": "Berlaku untuk pembelian miniatur Balee Juang, gantungan kunci Aceh, atau kopi alun-alun.",
+        "terms": "Tukarkan pada gerai Galeri Dekranasda / UMKM pelataran Balee Juang."
+      },
+      "promos": [
+        {
+          "id": "pr-balee-1",
+          "title": "Souvenir Gantungan Kunci & Pin Kupiah Meukeutop",
+          "description": "Kerajinan tangan khas pengrajin lokal Kota Langsa sebagai cinderamata kunjungan museum.",
+          "priceText": "Rp15.000 – Rp35.000",
+          "promoBadge": "Kriya Lokal",
+          "isActive": true,
+          "createdAt": "2026-10-29T09:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "loc-hutan-kota",
+      "qrCode": "JL-QR-HUTANKOTA-003",
+      "name": "Taman Hutan Kota Langsa",
+      "category": "taman",
+      "pinIcon": "sun",
+      "lat": 4.490549502131046,
+      "lng": 97.9461458491474,
+      "radiusMeters": 120,
+      "shortDescription": "Ruang terbuka hijau kebanggaan warga dengan lebih dari 300 jenis tanaman, danau sepeda air, jembatan gantung kanopi, dan mini zoo edukasi.",
+      "historyDescription": "Berlokasi di Gampong Baroh Langsa Lama, Taman Hutan Kota Langsa dirancang sebagai arboretum tropis sekaligus pusat rekreasi keluarga. Pepohonan trembesi dan meranti raksasa menciptakan iklim mikro yang sejuk sepanjang hari.",
+      "operatingHours": "Setiap Hari • 08.00 – 17.30 WIB",
+      "priceRange": "Tiket Masuk Rp10.000 | Wahana & Kuliner UMKM Rp10.000 – Rp30.000",
+      "contactName": "Pengelola RTH Hutan Kota Langsa",
+      "contactPhone": "085277441122",
+      "missions": [
+        {
+          "id": "m-hutan-1",
+          "title": "Foto Danau / Jembatan Kanopi",
+          "description": "Ambil foto lanskap danau perahu bebek, rumah pohon Aceh, atau jembatan gantung Hutan Kota.",
+          "type": "photo",
+          "xpReward": 55
+        },
+        {
+          "id": "m-hutan-2",
+          "title": "Foto Kuliner / Souvenir Kreatif",
+          "description": "Potret rujak Aceh segar, es kelapa muda, atau kriya anyaman UMKM di zona kuliner taman.",
+          "type": "photo",
+          "xpReward": 55
+        },
+        {
+          "id": "m-hutan-3",
+          "title": "Beri Rating & Kesan Singkat",
+          "description": "Berikan penilaian kenyamanan fasilitas dan kesejukan Taman Hutan Kota Langsa.",
+          "type": "review",
+          "xpReward": 40
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph-seed-4",
+          "locationId": "loc-hutan-kota",
+          "missionId": "m-hutan-1",
+          "missionLabel": "Foto Danau / Jembatan Kanopi",
+          "userEmail": "teuku.reza@gmail.com",
+          "userName": "Teuku Reza Fahlevi",
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20420%22%20width%3D%22640%22%20height%3D%22420%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2315803d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230ea5e9%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22url(%23bg)%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22130%22%20cy%3D%2295%22%20r%3D%2238%22%20fill%3D%22%23fef08a%22%20opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cellipse%20cx%3D%22320%22%20cy%3D%22340%22%20rx%3D%22290%22%20ry%3D%2270%22%20fill%3D%22%2314532d%22%20opacity%3D%220.7%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cellipse%20cx%3D%22320%22%20cy%3D%22345%22%20rx%3D%22170%22%20ry%3D%2236%22%20fill%3D%22%2338bdf8%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22170%22%20cy%3D%22210%22%20r%3D%2256%22%20fill%3D%22%2322c55e%22%20opacity%3D%220.85%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22163%22%20y%3D%22250%22%20width%3D%2214%22%20height%3D%2265%22%20fill%3D%22%2378350f%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22470%22%20cy%3D%22195%22%20r%3D%2264%22%20fill%3D%22%2316a34a%22%20opacity%3D%220.85%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22462%22%20y%3D%22245%22%20width%3D%2216%22%20height%3D%2272%22%20fill%3D%22%2378350f%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%3Crect%20x%3D%2224%22%20y%3D%2224%22%20width%3D%22180%22%20height%3D%2232%22%20rx%3D%2216%22%20fill%3D%22rgba(15%2C23%2C42%2C0.55)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2242%22%20y%3D%2245%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%3EMISI%20KOMUNITAS%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22328%22%20width%3D%22640%22%20height%3D%2292%22%20fill%3D%22rgba(15%2C23%2C42%2C0.68)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22364%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%3EDanau%20%20Kanopi%20Hutan%20Kota%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22392%22%20fill%3D%22%23e2e8f0%22%20font-family%3D%22sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22500%22%3EParu-Paru%20Hijau%20Gampong%20Baroh%20Langsa%20Lama%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "Teduh banget buat jogging pagi dan piknik bareng keluarga.",
+          "createdAt": "2026-11-01T08:45:00.000Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-seed-4",
+          "locationId": "loc-hutan-kota",
+          "missionId": "m-hutan-3",
+          "userEmail": "teuku.reza@gmail.com",
+          "userName": "Teuku Reza Fahlevi",
+          "rating": 4,
+          "comment": "Pohonnya rindang, ada rusa tutul dan rumah adat Aceh yang bagus untuk edukasi anak-anak.",
+          "createdAt": "2026-11-01T08:55:00.000Z"
+        }
+      ],
+      "merchantName": "Pujasera UMKM Taman Hutan Kota",
+      "voucherConfig": {
+        "enabled": true,
+        "title": "Voucher Diskon 15% Rujak Aceh & Es Kelapa Muda",
+        "discountValue": "Diskon 15%",
+        "description": "Segarkan diri setelah mengelilingi jembatan kanopi & danau Hutan Kota.",
+        "terms": "Tunjukkan voucher pada tenant kuliner Pujasera Utama Hutan Kota."
+      },
+      "promos": [
+        {
+          "id": "pr-hutan-1",
+          "title": "Rujak Aceh Buah Rumbia & Es Kelapa Muda Murni",
+          "description": "Perpaduan saus rujak buah rumbia khas Aceh yang segar, manis, dan sedikit pedas.",
+          "priceText": "Rp15.000 / Porsi",
+          "promoBadge": "Favorit Pengunjung",
+          "isActive": true,
+          "createdAt": "2026-10-30T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "loc-pelabuhan-kuala",
+      "qrCode": "JL-QR-PELABUHAN-004",
+      "name": "Pelabuhan Kuala Langsa & Pulo Teulaga Tujoh",
+      "category": "bahari",
+      "pinIcon": "anchor",
+      "lat": 4.52340030444699,
+      "lng": 98.02077761672405,
+      "radiusMeters": 110,
+      "shortDescription": "Gerbang maritim bersejarah di pesisir timur Aceh dengan panorama kapal nelayan, angin Selat Malaka, sunset keemasan, dan boga bahari segar.",
+      "historyDescription": "Sejak awal abad ke-20, Pelabuhan Kuala Langsa telah menjadi simpul perdagangan hasil bumi pesisir timur Aceh menuju Penang dan Selat Malaka. Sore hari menjadi waktu favorit wisatawan menikmati matahari terbenam sambil menyantap ikan bakar segar.",
+      "operatingHours": "Setiap Hari • 06.00 – 22.00 WIB (Terbaik: 16.30 – 19.00 WIB)",
+      "priceRange": "Akses Kawasan Gratis | Seafood & Kopi Pesisir Rp15.000 – Rp65.000",
+      "contactName": "Komunitas Wisata Bahari Kuala Langsa",
+      "contactPhone": "082165439988",
+      "missions": [
+        {
+          "id": "m-pelabuhan-1",
+          "title": "Foto Panorama Dermaga & Kapal",
+          "description": "Abadikan deretan perahu nelayan tradisional atau siluet senja di tepi dermaga Kuala Langsa.",
+          "type": "photo",
+          "xpReward": 60
+        },
+        {
+          "id": "m-pelabuhan-2",
+          "title": "Foto Sajian Seafood / Kopi Pesisir",
+          "description": "Potret hidangan ikan bakar, udang goreng tepung, atau kopi tubruk hangat di warung tepi dermaga.",
+          "type": "photo",
+          "xpReward": 60
+        },
+        {
+          "id": "m-pelabuhan-3",
+          "title": "Beri Rating & Kesan Singkat",
+          "description": "Ceritakan suasana senja dan keramahan warga pesisir Kuala Langsa.",
+          "type": "review",
+          "xpReward": 40
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph-seed-5",
+          "locationId": "loc-pelabuhan-kuala",
+          "missionId": "m-pelabuhan-1",
+          "missionLabel": "Foto Panorama Dermaga & Kapal",
+          "userEmail": "cut.nadia@gmail.com",
+          "userName": "Cut Nadia Putri",
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20420%22%20width%3D%22640%22%20height%3D%22420%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230284c7%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22url(%23bg)%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22320%22%20cy%3D%22150%22%20r%3D%2262%22%20fill%3D%22%23fb923c%22%20opacity%3D%220.9%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22255%22%20width%3D%22640%22%20height%3D%22165%22%20fill%3D%22%230369a1%22%20opacity%3D%220.75%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpolygon%20points%3D%22180%2C245%20450%2C245%20415%2C288%20215%2C288%22%20fill%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22275%22%20y%3D%22195%22%20width%3D%2275%22%20height%3D%2250%22%20rx%3D%226%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M70%20325%20Q180%20310%20290%20325%20T550%20325%22%20stroke%3D%22%23bae6fd%22%20stroke-width%3D%224%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%3Crect%20x%3D%2224%22%20y%3D%2224%22%20width%3D%22180%22%20height%3D%2232%22%20rx%3D%2216%22%20fill%3D%22rgba(15%2C23%2C42%2C0.55)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2242%22%20y%3D%2245%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%3EMISI%20KOMUNITAS%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22328%22%20width%3D%22640%22%20height%3D%2292%22%20fill%3D%22rgba(15%2C23%2C42%2C0.68)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22364%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%3ESenja%20keemasan%20Kuala%20Langsa%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22392%22%20fill%3D%22%23e2e8f0%22%20font-family%3D%22sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22500%22%3EDermaga%20Maritim%20Selat%20Malaka%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "Langit jingga berpadu siluet kapal kayu nelayan di ujung dermaga!",
+          "createdAt": "2026-11-01T17:50:00.000Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-seed-5",
+          "locationId": "loc-pelabuhan-kuala",
+          "missionId": "m-pelabuhan-3",
+          "userEmail": "cut.nadia@gmail.com",
+          "userName": "Cut Nadia Putri",
+          "rating": 5,
+          "comment": "Spot sunset paling syahdu setelah keliling hutan mangrove. Ikan kerapu bakarnya segar baru turun dari perahu!",
+          "createdAt": "2026-11-01T18:05:00.000Z"
+        }
+      ],
+      "merchantName": "Komunitas Boga Bahari Dermaga Kuala",
+      "voucherConfig": {
+        "enabled": true,
+        "title": "Voucher Potongan Rp15.000 Paket Ikan Bakar Sunset",
+        "discountValue": "Hemat Rp15.000",
+        "description": "Potongan spesial hidangan ikan kerapu/kakap bakar segar di tepi dermaga.",
+        "terms": "Berlaku untuk makan di tempat pukul 15.00 – 21.00 WIB."
+      },
+      "promos": [
+        {
+          "id": "pr-pelabuhan-1",
+          "title": "Paket Ikan Kerapu Bakar Bumbu Aceh + Nasi Hangat",
+          "description": "Ikan tangkapan nelayan hari ini dibakar dengan rempah khas pesisir timur Aceh.",
+          "priceText": "Rp45.000 / Paket Lengkap",
+          "promoBadge": "Spesial Sunset",
+          "isActive": true,
+          "createdAt": "2026-11-01T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "loc-terasi-simpang-lhee",
+      "qrCode": "JL-QR-TERASI-005",
+      "name": "Sentra Belacan Gampong Simpang Lhee",
+      "category": "kuliner",
+      "pinIcon": "store",
+      "lat": 4.4988794710625974,
+      "lng": 97.96893089410344,
+      "radiusMeters": 100,
+      "shortDescription": "Kampung wisata kriya pangan & UMKM penghasil terasi udang rebon murni khas Langsa yang harum, gurih alami, dan diolah secara turun-temurun.",
+      "historyDescription": "Gampong Simpang Lhee dikenal luas di seluruh Aceh sebagai sentra pembuatan belacan/terasi udang rebon kualitas wahid tanpa pewarna buatan. Wisatawan dapat menyaksikan proses penjemuran udang rebon, penumbukan tradisional, hingga membeli kemasan oleh-oleh.",
+      "operatingHours": "Setiap Hari • 08.00 – 18.00 WIB",
+      "priceRange": "Oleh-oleh UMKM Terasi & Olahan Udang Rp15.000 – Rp50.000 / kemasan",
+      "contactName": "Koperasi UMKM Terasi Simpang Lhee",
+      "contactPhone": "081264993377",
+      "missions": [
+        {
+          "id": "m-terasi-1",
+          "title": "Foto Proses Produksi Tradisional",
+          "description": "Abadikan aktivitas penjemuran udang rebon atau rumah produksi UMKM di Gampong Simpang Lhee.",
+          "type": "photo",
+          "xpReward": 65
+        },
+        {
+          "id": "m-terasi-2",
+          "title": "Foto Produk Oleh-Oleh UMKM",
+          "description": "Potret produk kemasan Terasi Langsa, kerupuk udang, atau sambal belacan khas Simpang Lhee.",
+          "type": "photo",
+          "xpReward": 65
+        },
+        {
+          "id": "m-terasi-3",
+          "title": "Beri Rating & Kesan Singkat",
+          "description": "Dukung UMKM lokal dengan memberi ulasan kualitas oleh-oleh khas Simpang Lhee!",
+          "type": "review",
+          "xpReward": 45
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph-seed-6",
+          "locationId": "loc-terasi-simpang-lhee",
+          "missionId": "m-terasi-2",
+          "missionLabel": "Foto Produk Oleh-Oleh UMKM",
+          "userEmail": "teuku.reza@gmail.com",
+          "userName": "Teuku Reza Fahlevi",
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20420%22%20width%3D%22640%22%20height%3D%22420%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23881337%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e11d48%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22url(%23bg)%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22320%22%20cy%3D%22225%22%20r%3D%22105%22%20fill%3D%22%23fff7ed%22%20opacity%3D%220.94%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22320%22%20cy%3D%22225%22%20r%3D%2282%22%20fill%3D%22%23fda4af%22%20opacity%3D%220.88%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22295%22%20cy%3D%22210%22%20r%3D%2224%22%20fill%3D%22%237c2d12%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22348%22%20cy%3D%22222%22%20r%3D%2228%22%20fill%3D%22%239a3412%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22315%22%20cy%3D%22252%22%20r%3D%2220%22%20fill%3D%22%2315803d%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%3Crect%20x%3D%2224%22%20y%3D%2224%22%20width%3D%22180%22%20height%3D%2232%22%20rx%3D%2216%22%20fill%3D%22rgba(15%2C23%2C42%2C0.55)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2242%22%20y%3D%2245%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%3EMISI%20KOMUNITAS%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22328%22%20width%3D%22640%22%20height%3D%2292%22%20fill%3D%22rgba(15%2C23%2C42%2C0.68)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22364%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%3ETerasi%20Udang%20Rebon%20Asli%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22392%22%20fill%3D%22%23e2e8f0%22%20font-family%3D%22sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22500%22%3EOleh-Oleh%20Unggulan%20Gampong%20Simpang%20Lhee%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "Aroma udang rebonnya khas banget dan kemasannya sekarang sudah modern higienis.",
+          "createdAt": "2026-11-02T10:15:00.000Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-seed-6",
+          "locationId": "loc-terasi-simpang-lhee",
+          "missionId": "m-terasi-3",
+          "userEmail": "teuku.reza@gmail.com",
+          "userName": "Teuku Reza Fahlevi",
+          "rating": 5,
+          "comment": "Oleh-oleh wajib kalau mampir ke Langsa! Ibu-ibu pengrajinnya ramah menjelaskan proses pembuatan dari udang segar.",
+          "createdAt": "2026-11-02T10:22:00.000Z"
+        }
+      ],
+      "ownerEmail": "umkm.terasi@gmail.com",
+      "merchantName": "Koperasi Terasi Udang Rebon Simpang Lhee",
+      "voucherConfig": {
+        "enabled": true,
+        "title": "Voucher Gratis 1 Pack Kerupuk Udang / Diskon 20% Terasi Rebon",
+        "discountValue": "Bonus 1 Pack / 20%",
+        "description": "Dapatkan bonus kerupuk udang rebon renyah atau diskon pembelian paket oleh-oleh terasi.",
+        "terms": "Tukarkan langsung kepada pengelola galeri UMKM Gampong Simpang Lhee."
+      },
+      "promos": [
+        {
+          "id": "pr-terasi-1",
+          "title": "Terasi Udang Rebon Super Higienis (250gr)",
+          "description": "100% udang rebon pesisir segar tanpa pengawet dan tanpa pewarna buatan, tahan hingga 6 bulan.",
+          "priceText": "Rp25.000 / Pack Vakum",
+          "promoBadge": "Best Seller Oleh-Oleh",
+          "isActive": true,
+          "createdAt": "2026-11-01T09:00:00.000Z"
+        },
+        {
+          "id": "pr-terasi-2",
+          "title": "Sambal Belacan Roa & Udang Rebon Botol Siap Santap",
+          "description": "Sambal terasi khas Aceh yang sudah dimasak matang dan praktis dibawa perjalanan jauh.",
+          "priceText": "Rp30.000 / Botol Kaca",
+          "promoBadge": "Produk Baru",
+          "isActive": true,
+          "createdAt": "2026-11-02T09:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "loc-1793680929530",
+      "qrCode": "ACIKIWIR-QR-513",
+      "name": "Lokasi Pembantaian Lubang Buaya",
+      "category": "sejarah",
+      "pinIcon": "landmark",
+      "lat": 4.458026,
+      "lng": 97.97101,
+      "radiusMeters": 100,
+      "shortDescription": "Saksi Bisu terjadinya Pembantaian G30S PKI",
+      "historyDescription": "\"saya pakai seragam dulu\"\n\"Tidak perlu Komandan\"\n\nIn The End smua mati, orang kaya mati, orang miskin mati, komandannya mati, pejabatny amati, semuanya pergi menghadap ilahi",
+      "operatingHours": "Setiap Hari • 08.00 – 17.30 WIB",
+      "priceRange": "Tiket Rp10.000 | Produk UMKM Rp15.000 – Rp35.000",
+      "contactName": "PKI",
+      "contactPhone": "081260001234",
+      "missions": [
+        {
+          "id": "m-1793680929530-1",
+          "title": "Pulu Pulu",
+          "description": "Abadikan  foto kayang depan lubang buaya",
+          "type": "photo",
+          "xpReward": 60
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph-1793681253858-r6a3",
+          "locationId": "loc-1793680929530",
+          "missionId": "m-1793680929530-1",
+          "missionLabel": "Pulu Pulu",
+          "userEmail": "cut.nadia@gmail.com",
+          "userName": "Cut Nadia Putri",
+          "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20420%22%20width%3D%22640%22%20height%3D%22420%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230052CC%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22url(%23bg)%22%2F%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22140%22%20y%3D%22155%22%20width%3D%22360%22%20height%3D%22175%22%20rx%3D%228%22%20fill%3D%22%23fffbeb%22%20opacity%3D%220.92%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpolygon%20points%3D%22120%2C160%20320%2C82%20520%2C160%22%20fill%3D%22%23FFA000%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22180%22%20y%3D%22205%22%20width%3D%2244%22%20height%3D%22125%22%20rx%3D%2222%22%20fill%3D%22%2392400e%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22255%22%20y%3D%22205%22%20width%3D%2244%22%20height%3D%22125%22%20rx%3D%2222%22%20fill%3D%22%2392400e%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22340%22%20y%3D%22205%22%20width%3D%2244%22%20height%3D%22125%22%20rx%3D%2222%22%20fill%3D%22%2392400e%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22415%22%20y%3D%22205%22%20width%3D%2244%22%20height%3D%22125%22%20rx%3D%2222%22%20fill%3D%22%2392400e%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22330%22%20width%3D%22640%22%20height%3D%2290%22%20fill%3D%22%23451a03%22%20opacity%3D%220.45%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%3Crect%20x%3D%2224%22%20y%3D%2224%22%20width%3D%22180%22%20height%3D%2232%22%20rx%3D%2216%22%20fill%3D%22rgba(15%2C23%2C42%2C0.55)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2242%22%20y%3D%2245%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%3EMISI%20KOMUNITAS%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22328%22%20width%3D%22640%22%20height%3D%2292%22%20fill%3D%22rgba(15%2C23%2C42%2C0.68)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22364%22%20fill%3D%22%23ffffff%22%20font-family%3D%22sans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%3EPulu%20Pulu%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22392%22%20fill%3D%22%23e2e8f0%22%20font-family%3D%22sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22500%22%3ELokasi%20Pembantaian%20Lubang%20Buaya%20%E2%80%A2%20Oleh%20Cut%20Nadia%20Putri%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "Seru banget menyelesaikan \"Pulu Pulu\" langsung di Lokasi Pembantaian Lubang Buaya!",
+          "createdAt": "2026-11-03T04:47:33.858Z"
+        }
+      ],
+      "reviews": []
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "name": "Admin Pengelola Wisata",
+      "role": "admin",
+      "isActive": true,
+      "joinedAt": "2026-10-01T08:00:00.000Z",
+      "unlockedLocationIds": [
+        "loc-mangrove-kuala",
+        "loc-balee-juang"
+      ],
+      "completedMissionKeys": [],
+      "xp": 240,
+      "badges": [
+        "Pengelola Utama",
+        "Pelopor Wisata"
+      ]
+    },
+    {
+      "email": "cut.nadia@gmail.com",
+      "name": "Cut Nadia Putri",
+      "role": "user",
+      "isActive": true,
+      "joinedAt": "2026-10-25T09:15:00.000Z",
+      "unlockedLocationIds": [
+        "loc-mangrove-kuala",
+        "loc-balee-juang",
+        "loc-pelabuhan-kuala",
+        "loc-1793680929530"
+      ],
+      "completedMissionKeys": [
+        "loc-mangrove-kuala::m-mangrove-1",
+        "loc-mangrove-kuala::m-mangrove-3",
+        "loc-balee-juang::m-balee-1",
+        "loc-balee-juang::m-balee-3",
+        "loc-pelabuhan-kuala::m-pelabuhan-1",
+        "loc-pelabuhan-kuala::m-pelabuhan-3",
+        "loc-1793680929530::m-1793680929530-1",
+        "loc-mangrove-kuala::m-mangrove-2"
+      ],
+      "xp": 845,
+      "badges": [
+        "Penjelajah Pesisir",
+        "Kontributor Foto Aktif",
+        "Duta Sejarah",
+        "Penjelajah Aktif",
+        "Kontributor Galeri"
+      ]
+    },
+    {
+      "email": "teuku.reza@gmail.com",
+      "name": "Teuku Reza Fahlevi",
+      "role": "user",
+      "isActive": true,
+      "joinedAt": "2026-10-27T13:40:00.000Z",
+      "unlockedLocationIds": [
+        "loc-mangrove-kuala",
+        "loc-hutan-kota",
+        "loc-terasi-simpang-lhee"
+      ],
+      "completedMissionKeys": [
+        "loc-mangrove-kuala::m-mangrove-2",
+        "loc-mangrove-kuala::m-mangrove-3",
+        "loc-hutan-kota::m-hutan-1",
+        "loc-hutan-kota::m-hutan-3",
+        "loc-terasi-simpang-lhee::m-terasi-2",
+        "loc-terasi-simpang-lhee::m-terasi-3"
+      ],
+      "xp": 605,
+      "badges": [
+        "Sahabat UMKM",
+        "Rimbawan Kota"
+      ]
+    },
+    {
+      "email": "umkm.mangrove@gmail.com",
+      "name": "Pak Hendra (Mitra UMKM Mangrove)",
+      "role": "umkm",
+      "isActive": true,
+      "joinedAt": "2026-10-12T08:30:00.000Z",
+      "unlockedLocationIds": [
+        "loc-mangrove-kuala"
+      ],
+      "completedMissionKeys": [],
+      "xp": 320,
+      "badges": [
+        "Mitra Resmi UMKM",
+        "Duta Ekowisata"
+      ],
+      "managedLocationId": "loc-mangrove-kuala",
+      "businessName": "Koperasi UMKM Ekowisata Mangrove",
+      "businessPhone": "081260004521"
+    },
+    {
+      "email": "umkm.terasi@gmail.com",
+      "name": "Ibu Rahmah (Sentra Terasi Simpang Lhee)",
+      "role": "umkm",
+      "isActive": true,
+      "joinedAt": "2026-10-15T10:00:00.000Z",
+      "unlockedLocationIds": [
+        "loc-terasi-simpang-lhee"
+      ],
+      "completedMissionKeys": [],
+      "xp": 290,
+      "badges": [
+        "Mitra Resmi UMKM",
+        "Pelestari Kuliner"
+      ],
+      "managedLocationId": "loc-terasi-simpang-lhee",
+      "businessName": "Koperasi Terasi Udang Rebon Simpang Lhee",
+      "businessPhone": "081264993377"
+    },
+    {
+      "email": "login@gmail.com",
+      "name": "pulu",
+      "role": "user",
+      "isActive": true,
+      "joinedAt": "2026-11-03T06:57:05.580Z",
+      "unlockedLocationIds": [],
+      "completedMissionKeys": [],
+      "xp": 50,
+      "badges": [
+        "Penjelajah Baru"
+      ]
+    }
+  ],
+  "vouchers": [
+    {
+      "id": "vch-1793687152988-oidp",
+      "code": "VC-MANGRO-2207",
+      "locationId": "any",
+      "locationName": "Bebas Pilih Mitra UMKM Mana Saja",
+      "merchantName": "Bebas Redeem di Semua UMKM (Asal Misi: Hutan Mangrove Kuala Langsa)",
+      "title": "Voucher Diskon 20% Kopi Sanger & Olahan Sirup Mangrove",
+      "discountValue": "Diskon 20%",
+      "pointCost": 80,
+      "terms": "Tunjukkan Kode / QR Voucher ini ke kasir Koperasi UMKM Mangrove untuk potongan langsung.",
+      "userEmail": "cut.nadia@gmail.com",
+      "userName": "Cut Nadia Putri",
+      "missionId": "m-mangrove-3",
+      "missionTitle": "Beri Rating & Kesan Singkat (Hutan Mangrove Kuala Langsa)",
+      "status": "active",
+      "issuedAt": "2026-11-03T06:25:52.988Z"
+    },
+    {
+      "id": "vch-1793687147171-qcln",
+      "code": "VC-MANGRO-1149",
+      "locationId": "loc-mangrove-kuala",
+      "locationName": "Hutan Mangrove Kuala Langsa",
+      "merchantName": "Koperasi UMKM Ekowisata Mangrove",
+      "title": "Voucher Diskon 20% Kopi Sanger & Olahan Sirup Mangrove",
+      "discountValue": "Diskon 20%",
+      "pointCost": 80,
+      "terms": "Tunjukkan Kode / QR Voucher ini ke kasir Koperasi UMKM Mangrove untuk potongan langsung.",
+      "userEmail": "cut.nadia@gmail.com",
+      "userName": "Cut Nadia Putri",
+      "missionId": "m-mangrove-2",
+      "missionTitle": "Foto Kuliner / Produk UMKM (Hutan Mangrove Kuala Langsa)",
+      "status": "redeemed",
+      "issuedAt": "2026-11-03T06:25:47.171Z",
+      "redeemedAt": "2026-11-03T06:59:53.375Z",
+      "redeemedByEmail": "umkm.mangrove@gmail.com"
+    },
+    {
+      "id": "vch-1793681253861-gzcw",
+      "code": "VC-179368-8998",
+      "locationId": "loc-1793680929530",
+      "locationName": "Lokasi Pembantaian Lubang Buaya",
+      "merchantName": "Mitra UMKM Lokasi Pembantaian Lubang Buaya",
+      "title": "Voucher Hadiah Misi Lokasi Pembantaian Lubang Buaya",
+      "discountValue": "Diskon UMKM Rp 5.000",
+      "terms": "Tunjukkan kode atau QR voucher ini kepada kasir UMKM / pengelola wisata untuk di-redeem.",
+      "userEmail": "cut.nadia@gmail.com",
+      "userName": "Cut Nadia Putri",
+      "missionId": "m-1793680929530-1",
+      "missionTitle": "Pulu Pulu",
+      "status": "active",
+      "issuedAt": "2026-11-03T04:47:33.861Z"
+    },
+    {
+      "id": "vc-seed-1",
+      "code": "VC-MANGROVE-7721",
+      "locationId": "loc-mangrove-kuala",
+      "locationName": "Hutan Mangrove Kuala Langsa",
+      "merchantName": "Koperasi UMKM Ekowisata Mangrove",
+      "userEmail": "cut.nadia@gmail.com",
+      "userName": "Cut Nadia Putri",
+      "missionId": "m-mangrove-1",
+      "missionTitle": "Foto Pemandangan Ikonik",
+      "title": "Voucher Diskon 20% Kopi Sanger & Olahan Sirup Mangrove",
+      "discountValue": "Diskon 20%",
+      "terms": "Tunjukkan Kode / QR Voucher ini ke kasir Koperasi UMKM Mangrove.",
+      "status": "active",
+      "issuedAt": "2026-10-28T09:32:00.000Z"
+    },
+    {
+      "id": "vc-seed-2",
+      "code": "VC-TERASI-9942",
+      "locationId": "loc-terasi-simpang-lhee",
+      "locationName": "Sentra Terasi Simpang Lhee",
+      "merchantName": "Koperasi Terasi Udang Rebon Simpang Lhee",
+      "userEmail": "teuku.reza@gmail.com",
+      "userName": "Teuku Reza Fahlevi",
+      "missionId": "m-terasi-2",
+      "missionTitle": "Foto Produk Oleh-Oleh UMKM",
+      "title": "Voucher Gratis 1 Pack Kerupuk Udang / Diskon 20% Terasi Rebon",
+      "discountValue": "Bonus 1 Pack / 20%",
+      "terms": "Tukarkan langsung kepada pengelola galeri UMKM Gampong Simpang Lhee.",
+      "status": "active",
+      "issuedAt": "2026-11-02T10:16:00.000Z"
+    },
+    {
+      "id": "vc-seed-3",
+      "code": "VC-MANGROVE-3105",
+      "locationId": "loc-mangrove-kuala",
+      "locationName": "Hutan Mangrove Kuala Langsa",
+      "merchantName": "Koperasi UMKM Ekowisata Mangrove",
+      "userEmail": "teuku.reza@gmail.com",
+      "userName": "Teuku Reza Fahlevi",
+      "missionId": "m-mangrove-2",
+      "missionTitle": "Foto Kuliner / Produk UMKM",
+      "title": "Voucher Diskon 20% Kopi Sanger & Olahan Sirup Mangrove",
+      "discountValue": "Diskon 20%",
+      "terms": "Tunjukkan Kode / QR Voucher ini ke kasir Koperasi UMKM Mangrove.",
+      "status": "redeemed",
+      "issuedAt": "2026-10-30T15:16:00.000Z",
+      "redeemedAt": "2026-10-30T15:42:00.000Z",
+      "redeemedByEmail": "umkm.mangrove@gmail.com"
+    }
+  ],
+  "businessInquiries": [
+    {
+      "id": "inq-seed-1",
+      "ownerName": "Bapak Zulkifli Hasan",
+      "businessName": "Komunitas Boga Bahari Dermaga Kuala",
+      "email": "umkm.dermaga@gmail.com",
+      "phone": "082165439988",
+      "targetLocationId": "loc-pelabuhan-kuala",
+      "message": "Halo Admin ACIKIWIR, kami dari asosiasi pedagang kuliner seafood Pelabuhan Kuala Langsa ingin mengajukan pembuatan akun Owner UMKM agar bisa mengelola promo ikan bakar dan menerima redeem voucher wisatawan.",
+      "status": "pending",
+      "createdAt": "2026-11-02T14:20:00.000Z"
+    }
+  ]
+}

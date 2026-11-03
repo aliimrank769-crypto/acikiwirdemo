@@ -1,0 +1,17 @@
+{
+  "name": "ACIKIWIR - Jelajah Wisata Interaktif & Misi Foto",
+  "short_name": "ACIKIWIR",
+  "description": "Aplikasi Web Wisata Interaktif Multi-Device Berbasis OpenStreetMap, Geofencing QR Code & Misi Komunitas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071A3E",
+  "theme_color": "#0052CC",
+  "icons": [
+    {
+      "src": "/logo-acikiwir.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
